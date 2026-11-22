@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#101112">
+    <meta name="description" content="Contact 80o Studio about game development, 3D art, and interactive projects.">
+    <meta property="og:title" content="Contact | 80o Studio">
+    <meta property="og:description" content="Contact 80o Studio about game development, 3D art, and interactive projects.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="80o Studio">
+    <title>Contact | 80o Studio</title>
+    <link rel="icon" href="art/studio-icon.png" type="image/png">
+    <link rel="stylesheet" href="studio.css">
+    <script defer src="studio.js"></script>
+  </head>
+  <body class="page-contact">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="wordmark" href="index.html" aria-label="80o Studio home">
+          <img src="art/studio-wordmark.png" width="478" height="304" alt="">
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" hidden>Menu</button>
+        <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+            <a href="games.html">Games</a>
+            <a href="services.html">Services</a>
+            <a href="about.html">About</a>
+            <a href="contact.html" aria-current="page">Contact</a>
+        </nav>
+        <a class="button button-gold header-action" href="contact.html#inquiries">Get in touch</a>
+      </div>
+    </header>
+    <main id="main-content" tabindex="-1">
+      <section class="hero hero--contact" aria-labelledby="page-title">
+        <div class="hero-media" aria-hidden="true">
+          <img src="art/skyrealm-hero.jpg" width="1536" height="1024" alt="" fetchpriority="high">
+        </div>
+        <div class="shell hero-content">
+          <h1 class="hero-title" id="page-title"><span class="gold-text">Let’s talk</span></h1>
+          <p class="hero-deck">Have a project, idea, or question?<br>We’d love to hear from you.</p>
+        </div>
+      </section>
+      <div class="orbit-wrap contact-content" id="inquiries">
+        <section class="shell section section--contact" aria-labelledby="get-in-touch">
+          <h2 class="section-title" id="get-in-touch">Get in touch</h2>
+          <div class="contact-grid">
+            <form class="contact-form" data-contact-form action="mailto:support@80ostudio.com" method="post" enctype="text/plain">
+              <div class="field">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" autocomplete="name" placeholder="Your name" maxlength="120" required>
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" autocomplete="email" placeholder="Your email" maxlength="254" required>
+              </div>
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="How can we help?" maxlength="1500" required></textarea>
+              </div>
+              <button class="button button-gold" type="submit">Open email draft</button>
+              <p class="form-note" data-contact-status role="status">Opens your email app with the message ready to send.</p>
+            </form>
+            <aside class="contact-aside" aria-label="Studio contact details">
+              <a class="email-link" href="mailto:support@80ostudio.com">
+                <span class="icon icon-mail" aria-hidden="true"></span>
+                <span>support@80ostudio.com</span>
+              </a>
+              <div class="contact-context">
+                <h3>Studio inquiries</h3>
+                <p>For project inquiries, tell us what you’re building, what stage you’re at, and where you’d like help.</p>
+              </div>
+              <a class="project-cover contact-art" href="about.html">
+                <img src="art/tidekeeper.jpg" alt="" loading="lazy" decoding="async">
+                <span class="project-caption">
+                  <span class="project-name">Meet the studio</span>
+                </span>
+              </a>
+            </aside>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="shell footer-inner">
+        <a class="wordmark" href="index.html" aria-label="80o Studio home">
+          <img src="art/studio-wordmark.png" width="478" height="304" alt="">
+        </a>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="index.html">Home</a>
+            <a href="games.html">Games</a>
+            <a href="services.html">Services</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+          <a href="privacy.html#PrivacyPolicy">Privacy Policy</a>
+        </nav>
+        <a class="footer-email" href="mailto:support@80ostudio.com" aria-label="Email 80o Studio" title="Email 80o Studio">
+          <span class="icon icon-mail" aria-hidden="true"></span>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
